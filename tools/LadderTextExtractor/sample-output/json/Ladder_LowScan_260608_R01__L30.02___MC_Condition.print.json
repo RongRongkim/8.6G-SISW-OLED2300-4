@@ -1,0 +1,18 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L30.02 _ MC Condition.print.pdf",
+  "ProgramId": "L30.02",
+  "ScanType": "LowScan",
+  "PageCount": 2,
+  "TextLength": 1856,
+  "IsEmpty": false,
+  "Registers": [
+    "DW00020"
+  ],
+  "Expressions": [
+    "InputCOPYW[W]SrcIW0000---[W]DestMW32000---[W]Width00004L30.02:MC Condition00/0COPYW[W]SrcIW0100---[W]DestMW32004---[W]Width0001611/3COPYW[W]SrcIW0110---[W]DestMW32020---[W]Width0001622/6COPYW[W]SrcIW0120---[W]DestMW32036---[W]Width0001633/9OutputCOPYW[W]SrcOW0000---[W]DestMW32200---[W]Width0000444/12COPYW[W]SrcOW0100---[W]DestMW32204---[W]Width0001655/15COPYW[W]SrcOW0110---[W]DestMW32220---[W]Width0001666/18COPYW[W]SrcOW0120---[W]DestMW32236---[W]Width0001677/21\uC6B4\uC804\uC870\uAC74 FOR[W]VarI---[W]Init00000[W]Max00111[W]Step0000188/24MB100200iServo Ready #1MB325000iServo Ready :NL299/28MB100300iServo On #1MB325080iServo On :NL21011/30MB100400iLUCX ABS CMPMB325160iABS Complete :NL21113/32END_FOR1215/34FOR[W]VarDW00020---[W]Init00000[W]Max00007[W]Step000011316/35EXPRESSION\u0027I\u0027 = \u0027DW00020\u0027 * 16  I = DW00020 * 16;\u0027J\u0027 = \u0027DW00020\u0027 * 500 * 16  J = DW00020 * 500 * 16;NL21417/39MB325330iUnit : Servo OnMB040000jUnit1 Servo ONMB325240iUnit : Servo OnNL21518/46MB325331iUnit : Alarm NothingMB040001jUnit1 Alarm OnMB325241iUnit : Alarm NothingNL21621/49MB325332iUnit : Warning NothingMB040002jUnit1 Warning OnMB325242iUnit : Warning NothingNL21724/52MB040009jRunning Unit1 ManuPTPMB325333iUnit : Dont Manual RunningMB040008jRunning Unit1 ManuCYLMB325243iUnit : Dont Manual RunningNL21827/55MB325334iUnit : Dont JOG/STP==[WLFQD]SrcAMW02610---[WLFQD]SrcB00000MB325244iUnit : Dont JOG/STPNL21931/59MB325335iUnit : Dont Auto RunningMB04000DjAutomatic Driving (Unit1)MB325245iUnit : Dont Auto RunningNL22034/63MB325336iUnit : Dont ABS RunningMB04000BjUnit1 Axis ABS RequestMB325246iUnit : Dont ABS RunningNL22137/66P00001  L30.02 : MC Condition  L30.02 : MC Condition  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DW00020": ""
+  }
+}

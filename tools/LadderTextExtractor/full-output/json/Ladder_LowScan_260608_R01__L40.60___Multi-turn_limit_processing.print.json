@@ -1,0 +1,48 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L40.60 _ Multi-turn limit processing.print.pdf",
+  "ProgramId": "L40.60",
+  "ScanType": "LowScan",
+  "PageCount": 2,
+  "TextLength": 4078,
+  "IsEmpty": false,
+  "Registers": [
+    "DB004000",
+    "DB004100",
+    "DB004200",
+    "DB004300",
+    "DB004400",
+    "DB004500",
+    "DL00014",
+    "DL00022",
+    "DL00024",
+    "DL00100",
+    "DL00200",
+    "DW00020",
+    "MB102900",
+    "ML11800",
+    "ML31000"
+  ],
+  "Expressions": [
+    "Multi-turn limit processing FOR[W]VarDW00020---[W]Init00000[W]Max00015[W]Step00001H40.60: multi-turn limit processing00/0EXPRESSION\u0027I\u0027 = \u0027DW00020\u0027  I = DW00020;\u0027J\u0027 = \u0027DW00020\u0027 * 0x80 * 16  J = DW00020 * 0x80 * 16;\u0027DB000040i\u0027 = \u0027Motion controller operation ready\u0027  DB000040i = IB80000j;\u0027DB000050i\u0027 = \u0027Motion controller operation ready\u0027  DB000050i = IB88000j;\u0027DB000060i\u0027 = \u0027Motion controller operation ready\u0027  DB000060i = IBA0000j;\u0027DB000070i\u0027 = \u0027Motion controller operation ready\u0027  DB000070i = IBA8000j;\u0027DB000080i\u0027 = \u0027Motion controller operation ready\u0027  DB000080i = IBB0000j;\u0027DB000090i\u0027 = \u0027IBB8000j\u0027  DB000090i = IBB8000j;\u0027I\u0027 = \u0027DW00020\u0027 * 2  I = DW00020 * 2;\u0027J\u0027 = \u0027DW00020\u0027 * 0x80  J = DW00020 * 0x80;\u0027Zero point offset\u0027 = \u0027OL8048j\u0027  DL00100i = OL8048j;\u0027DL00116i\u0027 = \u0027STR1Y1~Zero point offset\u0027  DL00116i = OL8848j;\u0027DL00132i\u0027 = \u0027CX~Zero point offset\u0027  DL00132i = OLA048j;\u0027DL00148i\u0027 = \u0027SCHY1~Zero point offset\u0027  DL00148i = OLA848j;\u0027DL00164i\u0027 = \u0027BKPBY1~Zero point offset\u0027  DL00164i = OLB048j;\u0027DL00180i\u0027 = \u0027OLB848j\u0027  DL00180i = OLB848j;\u0027Target position (CPOS)\u0027 = \u0027IL8010j\u0027  DL00200i = IL8010j;\u0027DL00216i\u0027 = \u0027STR1Y1~Target position (CPOS)\u0027  DL00216i = IL8810j;\u0027DL00232i\u0027 = \u0027CX~Target position (CPOS)\u0027  DL00232i = ILA010j;\u0027DL00248i\u0027 = \u0027SCHY1~Target position (CPOS)\u0027  DL00248i = ILA810j;\u0027DL00264i\u0027 = \u0027BKPBY1~Target position (CPOS)\u0027  DL00264i = ILB010j;\u0027DL00280i\u0027 = \u0027ILB810j\u0027  DL00280i = ILB810j;NL211/4[ DL00100 ].../0098j.../0103j[ DL00200 ].../0081j.../0104j.../0127jEND_FOR22/52FOR[W]VarDW00020---[W]Init00000[W]Max00095[W]Step0000133/53EXPRESSION\u0027I\u0027 = \u0027DW00020\u0027  I = DW00020;\u0027J\u0027 = \u0027DW00020\u0027 * 2  J = DW00020 * 2;NL244/57IF\u0027MB100500i\u0027 == true  MB100500i == true;NL255/62DB004000iPower OnIB80000jMotion controller operation readyDB003000i---DB004200iMulti Turn Execute ConditionDB004000iPower OnNL366/64[ DB004000 ].../0066i.../0069i.../0085i.../0088iDB004000iPower OnDB003100i---DB004100iPower On(pls)NL3711/69[ DB004100 ].../0072i.../0089i.../0122iProcessing Judgement CriteriaDB004100iPower On(pls)EXPRESSION\u0027DL00022\u0027 = \u0027ML11800j\u0027 - 20000  DL00022 = ML11800j - 20000;\u0027DL00024\u0027 = \u0027ML11800j\u0027 \u002B 20000  DL00024 = ML11800j \u002B 20000;NL3814/72[ DL00024 ].../0083DB004000iPower OnRCHK[WLFQD]InDL00200jTarget position (CPOS)[WLFQD]LowerDL00022---[WLFQD]UpperDL00024---DB004500iPosition OKNL3916/85[ DB004500 ].../0093iProcessing executionDB004000iPower OnDB004100iPower On(pls)MB102900iMulti Turn Limit Complete#1DB004300iMulti Turn Execute ConditionNL31019/88[ DB004300 ].../0092i.../0095i.../0113i.../0118iDB004300iMulti Turn Execute ConditionDB004500iPosition OKDB004400iMulti Turn Execute Condition \u0026 Position Not-NL31123/92[ DB004400 ].../0101i.../0107iDB004300iMulti Turn Execute ConditionDB003200i---STORE[WLFQD]SrcDL00100jZero point offset[WLFQD]DestDL00014---NL31226/95[ DL00014 ].../0105w.../0109.../0111w.../0115DB004400iMulti Turn Execute Condition \u0026 Position Not-SUBX[WLQ]SrcADL00100jZero point offset[WLQ]SrcBDL00200jTarget position (CPOS)[WLQ]DestDL00014---NL31329/101[ DL00014 ].../0099w.../0109.../0111w.../0115DB004400iMulti Turn Execute Condition \u0026 Position Not-ADDX[WLQ]SrcADL00014---[WLQ]SrcBML11800j---[WLQ]DestDL00014---NL31431/107[ DL00014 ].../0099w.../0105w.../0109.../0115P00001  L40.60 : Multi-turn limit processing  L40.60 : Multi-turn limit processing  P00001"
+  ],
+  "CrossReferences": [
+    "H40.51/0164jwH40"
+  ],
+  "RegisterComments": {
+    "DB004000": "",
+    "DB004100": "",
+    "DB004200": "",
+    "DB004300": "",
+    "DB004400": "",
+    "DB004500": "",
+    "DL00014": "",
+    "DL00022": "",
+    "DL00024": "",
+    "DL00100": "",
+    "DL00200": "",
+    "DW00020": "",
+    "MB102900": "Multi Turn Limit Complete#1",
+    "ML11800": "",
+    "ML31000": ""
+  }
+}

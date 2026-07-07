@@ -1,0 +1,40 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H90.90 Aligmnet Test.pdf",
+  "ProgramId": "H90.90",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 991,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000000",
+    "DB000001",
+    "DB000004",
+    "DB000010",
+    "DB000011",
+    "DB000012",
+    "DB000032",
+    "DB000033",
+    "DW00011",
+    "MB205320",
+    "MB205321",
+    "MB214720",
+    "MB214721"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000000": "",
+    "DB000001": "",
+    "DB000004": "",
+    "DB000010": "",
+    "DB000011": "",
+    "DB000012": "",
+    "DB000032": "",
+    "DB000033": "",
+    "DW00011": "",
+    "MB205320": "",
+    "MB205321": "",
+    "MB214720": "",
+    "MB214721": ""
+  }
+}

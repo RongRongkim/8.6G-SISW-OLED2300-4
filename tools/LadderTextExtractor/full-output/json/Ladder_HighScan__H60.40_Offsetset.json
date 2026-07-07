@@ -1,0 +1,30 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H60.40 Offsetset.pdf",
+  "ProgramId": "H60.40",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 827,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000010",
+    "DL00010",
+    "MB20541B",
+    "MB210642",
+    "MB210643",
+    "MB210644",
+    "MB210645",
+    "MB237800"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000010": "",
+    "DL00010": "",
+    "MB20541B": "[Btn_In]Auto Stop",
+    "MB210642": "",
+    "MB210643": "",
+    "MB210644": "",
+    "MB210645": "",
+    "MB237800": "[MCDATA]Head 1 Select"
+  }
+}

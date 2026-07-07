@@ -1,0 +1,28 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L40.40 _ Jog_Step Enable.print.pdf",
+  "ProgramId": "L40.40",
+  "ScanType": "LowScan",
+  "PageCount": 4,
+  "TextLength": 7328,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000000",
+    "DB000001",
+    "DW00020",
+    "MB200132",
+    "MB214785",
+    "MB900000",
+    "MB900080"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000000": "",
+    "DB000001": "",
+    "DW00020": "",
+    "MB200132": "[PCTAG]Data Editing",
+    "MB214785": "[MCTAG]Vision Line Inspection Req. - Camera6",
+    "MB900000": "Jog Enable(\u002B)",
+    "MB900080": ""
+  }
+}

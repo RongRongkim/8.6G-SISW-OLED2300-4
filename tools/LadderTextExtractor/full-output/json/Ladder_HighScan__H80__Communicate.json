@@ -1,0 +1,23 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H80  Communicate.pdf",
+  "ProgramId": "H80  Communicate",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 2357,
+  "IsEmpty": false,
+  "Registers": [
+    "OW2800",
+    "OW2BFF"
+  ],
+  "Expressions": [
+    "SEENameH80.01CIM Always CommunicationH80:CIM00/0SEENameH80.02CIM Always Send11/1SEENameH80.03CIM Always FDC22/2SEENameH80.10PIO UpStream\u003C-\u003EScribe33/3SEENameH80.11PIO tU1 \u003C-\u003E Scribe H/S44/4SEENameH80.12PIO Scribe \u003C-\u003E DownStream55/5SEENameH80.13PIO tL1 \u003C-\u003E Scribe H/S66/6SEENameH80.14PIO tL2 \u003C-\u003E Scribe H/S77/7SEENameH80.15CIM Event Report88/8SEENameH80.16CIM Alarm Set/Reset99/9SEENameH80.17CIM Alarm Report1010/10SEENameH80.18CIM Status Report1111/11SEENameH80.19CIM Scrap Report1212/12MB000181SCT UseSEENameH80.20Communicate MP Link SCT Equipment1313/13MB000182LCCT UseSEENameH80.21Communicate MP Link LCCT Equipment1415/17MB000183RCCT UseSEENameH80.22Communicate MP Link RCCT Equipment1517/21MB000181SCT UseSEENameH80.30Communicate MP Link SCT Data1619/25MB000182LCCT UseSEENameH80.31Communicate MP Link LCCT Data1721/29MB000183RCCT UseSEENameH80.32Communicate MP Link RCCT Data1823/33SEENameH80.40Communicate MP Link PIO Glass Data1925/37SEENameH80.41Communicate MP Link PIO SCT \u2194 LCCT2026/38SEENameH80.42Communicate MP Link PIO SCT \u2194 RCCT2127/39SEENameH80.60Communicate MP Link Panel Request Info2228/40MP LINKMB002007P Work : Stick Buffer TableSB0000101 Scan Flicker RelayINC[WLQ]DestOW2BFFSCT SBT Tracking Data Move(0: N-2329/41[ OW2BFF ].../0046.../0053w.../0055.../0064.../0073MB002007P Work : Stick Buffer Table\u003E=[WLFQD]SrcAOW2BFFSCT SBT Tracking Data Move(0: N-[WLFQD]SrcB00003STORE[WLFQD]Src00000[WLFQD]DestOW2BFFSCT SBT Tracking Data Move(0: N-2432/46[ OW2BFF ].../0044w.../0046.../0055.../0064.../0073==[WLFQD]SrcAOW2BFFSCT SBT Tracking Data Move(0: N-[WLFQD]SrcB00000COPYW[W]SrcMW115000---[W]DestOW2800---[W]Width010002535/55[ OW2800 ].../0070w.../0079wP00001  H80 : Communicate  H80 : Communicate  P00001",
+    "==[WLFQD]SrcAOW2BFFSCT SBT Tracking Data Move(0: N-[WLFQD]SrcB00001COPYW[W]SrcMW210500---[W]DestOW2800---[W]Width010002637/64[ OW2800 ].../0061w.../0079w==[WLFQD]SrcAOW2BFFSCT SBT Tracking Data Move(0: N-[WLFQD]SrcB00002COPYW[W]SrcMW211500---[W]DestOW2800---[W]Width005002739/73[ OW2800 ].../0061w.../0070wCOPYW[W]SrcIW2C00---[W]DestMW117000---[W]Width010002841/82==[WLFQD]SrcAIW33FF---[WLFQD]SrcB00000COPYW[W]SrcIW3000---[W]DestMW118000---[W]Width010002942/85MP LINK Flag BitSB0000110.5s Flicker RelayMB1150008Link : SCT Flag Bit3044/94[ MB1150008 ]H50.40/0614H50.40/0618END3146/96P00002  H80 : Communicate  H80 : Communicate  P00002"
+  ],
+  "CrossReferences": [
+    "H50.40/0614H50"
+  ],
+  "RegisterComments": {
+    "OW2800": "",
+    "OW2BFF": "SCT SBT Tracking Data Move(0: Nomal/1: Tracking Data(1)/2: Tracking Data(2))"
+  }
+}

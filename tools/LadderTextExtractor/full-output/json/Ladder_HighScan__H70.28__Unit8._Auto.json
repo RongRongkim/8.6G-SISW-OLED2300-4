@@ -1,0 +1,42 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H70.28  Unit8. Auto.pdf",
+  "ProgramId": "H70.28",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 2189,
+  "IsEmpty": false,
+  "Registers": [
+    "MB059600",
+    "MB075130",
+    "MB075150",
+    "MB078606",
+    "ML07820",
+    "ML07822",
+    "ML07824",
+    "ML07826",
+    "MW07507",
+    "MW07527",
+    "MW07528"
+  ],
+  "Expressions": [
+    "Auto Start TimeStart SequenceID MakeMB002006P Work : SCT Stick Transfer 1STORE[WLFQD]Src00001[WLFQD]DestMW07507---H70.28:Unit8 Auto00/0[ MW07507 ].../0010w.../0017wMB002006P Work : SCT Stick Transfer 1MB075130Stick PreAlignment 1Cycle CompMB216827[Btn_Out]PreAlign2 Unuse ModeSTORE[WLFQD]Src00002[WLFQD]DestMW07507---12/5[ MW07507 ].../0003w.../0017wMB216827[Btn_Out]PreAlign2 Unuse ModeMB002006P Work : SCT Stick Transfer 1MB075130Stick PreAlignment 1Cycle CompSTORE[WLFQD]Src00004[WLFQD]DestMW07507---26/12[ MW07507 ].../0003w.../0010wAlignment Complete Bit MB000004Automatic DrivingMB00002FStick PreAlignment Comp RequestMB216828[Btn_Out]PreAlign2 CompleteDB000010---EXPRESSION// Alignment Complete Bit Set\u0027Stick PreAlignment 1Cycle Comp\u0027 = 1  MB075130 = 1;\u0027Stick PreAlignment 1Cycle Complete(Manual)\u0027 = 1  MB075150 = 1;310/19[ MB075150 ].../0040wH30.50/0903wL20.40/0200L20.48/1337PreAlign Bit ResetMB00002FStick PreAlignment Comp RequestDB000011---MB002006P Work : SCT Stick Transfer 1EXPRESSION// Alignment Complete Bit Set\u0027Stick PreAlignment 1Cycle Comp\u0027 = 0  MB075130 = 0; // Auto\u0027Stick PreAlignment 1Cycle Complete(Manual)\u0027 = 0  MB075150 = 0;   // Manual//Auto Mark Search Bit Reset\u0027STR AutoMark Search Complete Flag\u0027 = 0  MB078606 = 0;415/31[ MB075150 ].../0029wH30.50/0903wL20.40/0200L20.48/1337[ MB078606 ]H30.50/0897wAlignment Data ResetMB216827[Btn_Out]PreAlign2 Unuse ModeMB002006P Work : SCT Stick Transfer 1DB000013---MB000800MCTAG_IdlingEXPRESSION// STR1 PreAlign X,Y,T Align Data\u0027ML07820\u0027 = 0  ML07820 = 0;  // X\u0027ML07822\u0027 = 0  ML07822 = 0;  // Y\u0027ML07824\u0027 = 0  ML07824 = 0;  // T519/45[ ML07822 ]H50.79/0013H50.79/0019H70.29/0027[ ML07824 ]H50.79/0051H70.29/0029MB059600---STORE[WLFQD]SrcML05862Glass Size Length[WLFQD]DestML07826---STORE[WLFQD]SrcGL21002Panel Width Size[WLFQD]DestML07828---MB030036P Work : Break Table [SCT]MB002006P Work : SCT Stick Transfer 1DB000012---MB059600---STORE[WLFQD]SrcML05964---[WLFQD]DestML07826---624/57[ ML07826 ].../0068w[ ML07826 ].../0064wInitailizeUnit PIO InterfaceMB000001StoppingEXPRESSION\u0027MW07527\u0027 = 0  MW07527 = 0;\u0027MW07528\u0027 = 0  MW07528 = 0;732/72END834/79P00001  H70.28 : Unit8 Auto (STR1)  H70.28 : Unit8 Auto (STR1)  P00001"
+  ],
+  "CrossReferences": [
+    "H30.50/0897wAlignment",
+    "H50.79/0013H50",
+    "H50.79/0051H70"
+  ],
+  "RegisterComments": {
+    "MB059600": "",
+    "MB075130": "Stick PreAlignment 1Cycle Comp",
+    "MB075150": "Stick PreAlignment 1Cycle Complete(Manual)",
+    "MB078606": "STR AutoMark Search Complete Flag",
+    "ML07820": "",
+    "ML07822": "",
+    "ML07824": "",
+    "ML07826": "",
+    "MW07507": "",
+    "MW07527": "",
+    "MW07528": ""
+  }
+}

@@ -1,0 +1,34 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H80.60 Communicate Mp.pdf",
+  "ProgramId": "H80.60",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 2398,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000002",
+    "DB000004",
+    "DB00000E",
+    "DB00000F",
+    "DB000102",
+    "DB000103",
+    "DW00070",
+    "MB600038",
+    "MW62050",
+    "MW62055"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000002": "",
+    "DB000004": "",
+    "DB00000E": "",
+    "DB00000F": "",
+    "DB000102": "",
+    "DB000103": "",
+    "DW00070": "",
+    "MB600038": "[Scribe \u2192 ECS] Panal Data Request",
+    "MW62050": "",
+    "MW62055": ""
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H70.23  Unit3 Auto.pdf",
+  "ProgramId": "H70.23",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 283,
+  "IsEmpty": false,
+  "Registers": [
+    "MB05000D"
+  ],
+  "Expressions": [],
+  "CrossReferences": [
+    "H50.10/0065END25"
+  ],
+  "RegisterComments": {
+    "MB05000D": "Automatic Driving(BKPB)"
+  }
+}

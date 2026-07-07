@@ -1,0 +1,28 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H80.40 Communicate Mp.pdf",
+  "ProgramId": "H80.40",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 2083,
+  "IsEmpty": false,
+  "Registers": [
+    "MB002487",
+    "MB002488",
+    "MB00248A",
+    "MB00248B",
+    "MB002658"
+  ],
+  "Expressions": [],
+  "CrossReferences": [
+    "H30.10/0015wScribe",
+    "H30.10/0446H30",
+    "H30.10/0462H30"
+  ],
+  "RegisterComments": {
+    "MB002487": "Work Move : SCT Stick Buffer Table \u2192 LCCT Stick Transfer2",
+    "MB002488": "Work Move : SCT Stick Buffer Table \u2192 RCCT Stick Transfer2",
+    "MB00248A": "Work Move : LCCT Left Scribe Fix Table \u2192 LCCT Left Scribe Chuck Y",
+    "MB00248B": "Work Move : LCCT Left Scribe Chuck Y \u2192 LCCT Left Break Table",
+    "MB002658": "TDataCpy : RCCT Right Break Table \u2192 RCCT Right Carry Out"
+  }
+}

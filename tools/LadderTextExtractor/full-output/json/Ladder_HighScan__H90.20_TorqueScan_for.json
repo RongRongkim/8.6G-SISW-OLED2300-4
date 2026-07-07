@@ -1,0 +1,26 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H90.20 TorqueScan for.pdf",
+  "ProgramId": "H90.20",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 1115,
+  "IsEmpty": false,
+  "Registers": [
+    "DB00000A",
+    "DL00020",
+    "DL00022",
+    "DL00026",
+    "DW00010"
+  ],
+  "Expressions": [
+    "MB000001StoppingEXPRESSION\u0027GB17000000\u0027 = 0  GB17000000 = 0;H90.20:Option_TorqueScan for 0LevelSearch00/0DB000009---STORE[WLFQD]Src00004[WLFQD]DestDW00010---12/6[ DW00010 ].../0014w.../0018.../0021.../0033wDB000009---STORE[WLFQD]Src00010[WLFQD]DestDW00010---24/11[ DW00010 ].../0009w.../0018.../0021.../0033wDB000010---EXPRESSION\u0027J\u0027 = \u0027DW00010\u0027 * 128  J = DW00010 * 128;\u0027J\u0027 = \u0027DW00010\u0027 * 128 / 2  J = DW00010 * 128 / 2;36/16IF\u0027GB17000000\u0027  GB17000000;48/26==[WLFQD]SrcAOWA108CZ~Motion command[WLFQD]SrcB00023TON[10ms][W]Set00010[W]CountDW00010---DB00000A---NL259/28MUL[WLFQD]SrcAILA140CZ~Feedback speed[WLFQD]SrcB1.00000E-02---[WLFQD]DestDL00026---NL2612/35[ DL00026 ].../0039ADD[WLFQD]SrcAILA116CZ~Machine coordinate feedback Po-[WLFQD]SrcBDL00026---[WLFQD]DestDL00020---NL2713/38[ DL00020 ].../0041FGN[WLFQD]InDL00020---[A]PrmGA1700010---[WLFQD]OutDL00022---NL2814/41[ DL00022 ].../0044ADD[WLFQD]SrcADL00022---[WLFQD]SrcBML26458[EQ]0 Point detect Torque Scan Tor-[WLFQD]DestGL1700006---NL2915/44END_IF1016/47END1117/48P00001  H90.20 : TorqueScan for 0 Level Search  H90.20 : TorqueScan for 0 Level Search  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB00000A": "",
+    "DL00020": "",
+    "DL00022": "",
+    "DL00026": "",
+    "DW00010": ""
+  }
+}

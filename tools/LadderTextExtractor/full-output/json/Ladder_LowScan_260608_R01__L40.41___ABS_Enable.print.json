@@ -1,0 +1,22 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L40.41 _ ABS Enable.print.pdf",
+  "ProgramId": "L40.41",
+  "ScanType": "LowScan",
+  "PageCount": 1,
+  "TextLength": 1193,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000000",
+    "DB000001",
+    "DW00020",
+    "MB200132"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000000": "",
+    "DB000001": "",
+    "DW00020": "",
+    "MB200132": "[PCTAG]Data Editing"
+  }
+}

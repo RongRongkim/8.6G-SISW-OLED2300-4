@@ -1,0 +1,38 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H60.30 Scribe Cutter Auto.pdf",
+  "ProgramId": "H60.30",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 1172,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000000",
+    "DB000001",
+    "DB000030",
+    "MB032758",
+    "MB03275F",
+    "MB032762",
+    "MB032765",
+    "MB03276E",
+    "MB032790",
+    "MW03277",
+    "MW20032"
+  ],
+  "Expressions": [],
+  "CrossReferences": [
+    "H50.10/0019L20"
+  ],
+  "RegisterComments": {
+    "DB000000": "",
+    "DB000001": "",
+    "DB000030": "",
+    "MB032758": "",
+    "MB03275F": "",
+    "MB032762": "",
+    "MB032765": "",
+    "MB03276E": "",
+    "MB032790": "",
+    "MW03277": "",
+    "MW20032": "[PCTAG]EQP Override(%)"
+  }
+}

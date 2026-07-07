@@ -1,0 +1,28 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H90.62 Hyper Clean.pdf",
+  "ProgramId": "H90.62",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 2162,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000007",
+    "DB000008",
+    "MB030550",
+    "MB030551",
+    "MB031330",
+    "MB031331"
+  ],
+  "Expressions": [
+    "RMB031331SCT Break Table Hyper Clean R OnMB000004Automatic DrivingDB000000---RMB031330SCT Break Table Hyper Clean L OnH90.62:Hyper Clean00/0[ MB031330 ].../0023w.../0038w.../0041H80.03/0623H99.02/1639L10.60/0995iL20.44/0397L20.44/0401[ MB031331 ].../0024w.../0039w.../0052H80.03/0625L20.44/0405L20.44/0409==[WLFQD]SrcAML05310Last Break Select (1:Use, 0:Not Use) [WLFQD]SrcB00001SMB031331SCT Break Table Hyper Clean R On==[WLFQD]SrcAML26040[EQ]Dust Catcher (0: Unuse 1: Use)[WLFQD]SrcB00002MB000004Automatic Driving==[WLFQD]SrcAML26040[EQ]Dust Catcher (0: Unuse 1: Use)[WLFQD]SrcB00001==[WLFQD]SrcAML05810Table Break Select (1:Use, 0:Not Us-[WLFQD]SrcB00001MB045132Scribe CompDB000001---SMB031330SCT Break Table Hyper Clean L On14/16[ MB031330 ].../0002w.../0038w.../0041H80.03/0623H99.02/1639L10.60/0995iL20.44/0397L20.44/0401[ MB031331 ].../0003w.../0039w.../0052H80.03/0625L20.44/0405L20.44/0409==[WLFQD]SrcAML26040[EQ]Dust Catcher (0: Unuse 1: Use)[WLFQD]SrcB00002MB000004Automatic DrivingRMB031331SCT Break Table Hyper Clean R On!=[WLFQD]SrcAML26040[EQ]Dust Catcher (0: Unuse 1: Use)[WLFQD]SrcB00002MB000004Automatic DrivingMB030036P Work : Break Table [SCT]MB056005BKTY Carry Out PositionDB000002---RMB031330SCT Break Table Hyper Clean L On213/25[ MB031330 ].../0002w.../0023w.../0041H80.03/0623H99.02/1639L10.60/0995iL20.44/0397L20.44/0401[ MB031331 ].../0003w.../0024w.../0052H80.03/0625L20.44/0405L20.44/0409MB030550SCT Break Table Hyper Clean L Pre-MB00006FPls:ResetMB030036P Work : Break Table [SCT]MB031330SCT Break Table Hyper Clean L OnMB031060SCT Break Table Hyper Clean L Pre-MB000800MCTAG_IdlingMB00006FPls:ResetTON[10ms][W]Set00500[W]CountDW00020---DB000007---MB030550SCT Break Table Hyper Clean L Pre-322/40[ MB030550 ].../0048L90.30/1008MB030551SCT Break Table Hyper Clean R Pr-MB00006FPls:ResetMB030036P Work : Break Table [SCT]MB031331SCT Break Table Hyper Clean R OnMB031061SCT Break Table Hyper Clean R Pr-MB000800MCTAG_IdlingMB00006FPls:ResetTON[10ms][W]Set00500[W]CountDW00021---DB000008---MB030551SCT Break Table Hyper Clean R Pr-432/51[ MB030551 ].../0059L90.30/1010END542/62P00001  H90.62 : Hyper Clean  H90.62 : Hyper Clean  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000007": "",
+    "DB000008": "",
+    "MB030550": "SCT Break Table Hyper Clean L Pressure Alarm",
+    "MB030551": "SCT Break Table Hyper Clean R Pressure Alarm",
+    "MB031330": "SCT Break Table Hyper Clean L On",
+    "MB031331": "SCT Break Table Hyper Clean R On"
+  }
+}

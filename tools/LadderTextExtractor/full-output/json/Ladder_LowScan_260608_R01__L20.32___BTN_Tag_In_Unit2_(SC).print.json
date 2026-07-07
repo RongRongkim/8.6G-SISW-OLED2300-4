@@ -1,0 +1,20 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L20.32 _ BTN Tag In_Unit2 (SC).print.pdf",
+  "ProgramId": "L20.32",
+  "ScanType": "LowScan",
+  "PageCount": 1,
+  "TextLength": 895,
+  "IsEmpty": false,
+  "Registers": [
+    "DW00030",
+    "MW00041",
+    "MW00051"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DW00030": "",
+    "MW00041": "",
+    "MW00051": ""
+  }
+}

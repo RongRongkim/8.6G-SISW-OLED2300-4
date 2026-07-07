@@ -1,0 +1,1 @@
+﻿SEENameL10IO SignalL:L-Scan Main00/0SEENameL20PC Interface11/1SEENameL30Monitor22/2SEENameL40Axis Control33/3SEENameL60Jog/Step Enable44/4SEENameL80PC Interface2 (BTN Eanble Interlock)55/5SEENameL90Alarm66/6END77/7P00001  L : L-Scan Main  L : L-Scan Main  P00001

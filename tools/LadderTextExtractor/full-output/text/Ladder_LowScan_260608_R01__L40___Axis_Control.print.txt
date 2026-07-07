@@ -1,0 +1,1 @@
+﻿SEENameL40.01Gantry AxisParameter CopyL40:Axis Control00/0SEENameL40.40Jog/Step Enable11/1SEENameL40.41ABS Enable22/2SEENameL40.60Multi-turn limit processing33/3END44/4P00001  L40 : Axis Control  L40 : Axis Control  P00001

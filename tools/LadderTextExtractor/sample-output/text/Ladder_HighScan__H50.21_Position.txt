@@ -1,0 +1,1 @@
+﻿■ Position Status   Position Check RangeEXPRESSION'DL00000' = 70  DL00000 = 70;'DL00002' = 10  DL00002 = 10;'DL00004' = 100  DL00004 = 100;H50.21:LD Position Status00/0Axis Name   Position NameEND11/6P00001  H50.21 : Position Status_Unit1 (SP)  H50.21 : Position Status_Unit1 (SP)  P00001

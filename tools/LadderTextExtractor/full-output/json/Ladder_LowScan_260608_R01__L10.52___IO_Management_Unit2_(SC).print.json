@@ -1,0 +1,44 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L10.52 _ IO Management_Unit2 (SC).print.pdf",
+  "ProgramId": "L10.52",
+  "ScanType": "LowScan",
+  "PageCount": 1,
+  "TextLength": 2403,
+  "IsEmpty": false,
+  "Registers": [
+    "DW00000",
+    "DW00009",
+    "DW00010",
+    "DW00039",
+    "DW00040",
+    "DW00089",
+    "DW00090",
+    "DW00119",
+    "MB090400",
+    "MB090440",
+    "MB090480",
+    "MB090520",
+    "MB090560",
+    "MB090600"
+  ],
+  "Expressions": [
+    "***************************************************************************************************** DL Register Area - 120Word*                   * DW00000 - DW00009 (Pls Use) * DW00010 - DW00039 (BIT Use)* DW00040 - DW00089 (Word Use)* DW00090 - DW00119 (Timer)**************************************************************************************************** ##################################################################################################### Program Name : IO Management_Unit2# # Function :  # # Call Program : H10## Sub Program :## Func Program :#################################################################################################### Command  Bit OperationCylinderFOR[W]VarDW00040---[W]Init00000[W]Max00063[W]Step00001H10.52:IO Management_Unit200/0EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL211/4MB090400iSol : SCT Fix Table Brush Down (L)DB000000iPlsRMB090440iSol : SCT Fix Table Brush Up (L)NL222/6[ MB090440 ].../0009iH50.12/1165wH50.12/1173wH50.42/0664L10.62/0008iL10.62/0224iL20.42/0520MB090440iSol : SCT Fix Table Brush Up (L)DB000040iPlsRMB090400iSol : SCT Fix Table Brush Down (L)NL235/9[ MB090400 ].../0006iH50.12/1163wH50.12/1175wH50.42/0088L10.62/0006iL10.62/0226iL20.42/0516END_FOR48/12VaccumFOR[W]VarDW00040---[W]Init00000[W]Max00063[W]Step0000159/13EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL2610/17MB090480iSol : SCT Scribe Chuck 1 Vacuum OnDB000080iPlsRMB090520iSol : SCT Scribe Chuck 1 Vacuum OffNL2711/19[ MB090520 ].../0022iH50.12/0454wH50.12/0499wH50.42/1592L10.12/0957iL10.62/0444iL10.62/0659iL20.42/0005MB090520iSol : SCT Scribe Chuck 1 Vacuum OffDB000120iPlsRMB090480iSol : SCT Scribe Chuck 1 Vacuum OnNL2814/22[ MB090480 ].../0019iH50.12/0451wH50.12/0502wH50.42/1240L10.12/0695iL10.62/0442iL10.62/0661iL20.42/0001END_FOR917/25BlowFOR[W]VarDW00040---[W]Init00000[W]Max00063[W]Step000011018/26EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL21119/30MB090560i[Sol] SCT Scribe Chuck 1,2,3,4 Blow OnDB000160iPlsRMB090600i[Sol] SCT Scribe Chuck 1,2,3,4 Blow OffNL21220/32[ MB090600 ].../0035iH50.12/0437wH50.42/2283L10.62/0833iL10.62/1012iL20.42/0261MB090600i[Sol] SCT Scribe Chuck 1,2,3,4 Blow OffDB000200iPlsRMB090560i[Sol] SCT Scribe Chuck 1,2,3,4 Blow OnNL21323/35[ MB090560 ].../0032iH50.42/1949L10.12/1200iL10.62/0831iL10.62/1014iL20.42/0257END_FOR1426/38END1527/39P00001  L10.52 : IO Management_Unit2 (SC)  L10.52 : IO Management_Unit2 (SC)  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DW00000": "",
+    "DW00009": "",
+    "DW00010": "",
+    "DW00039": "",
+    "DW00040": "",
+    "DW00089": "",
+    "DW00090": "",
+    "DW00119": "",
+    "MB090400": "Sol : SCT Fix Table Brush Down (L)",
+    "MB090440": "Sol : SCT Fix Table Brush Up (L)",
+    "MB090480": "Sol : SCT Scribe Chuck 1 Vacuum On",
+    "MB090520": "Sol : SCT Scribe Chuck 1 Vacuum Off",
+    "MB090560": "[Sol] SCT Scribe Chuck 1,2,3,4 Blow On",
+    "MB090600": "[Sol] SCT Scribe Chuck 1,2,3,4 Blow Off"
+  }
+}

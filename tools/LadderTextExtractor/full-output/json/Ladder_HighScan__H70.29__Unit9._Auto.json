@@ -1,0 +1,40 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H70.29  Unit9. Auto.pdf",
+  "ProgramId": "H70.29",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 4345,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000060",
+    "DB000061",
+    "DB000062",
+    "DB000100",
+    "DB000101",
+    "ML08320",
+    "ML08322",
+    "ML08324",
+    "MW08007",
+    "MW08027",
+    "MW08028",
+    "MW08362"
+  ],
+  "Expressions": [
+    "Auto Start TimeStart SequenceID MakeMB002007P Work : Stick Buffer TableSTORE[WLFQD]Src00001[WLFQD]DestMW08007---H70.29:Unit9 Auto00/0[ MW08007 ].../0008wMB002007P Work : Stick Buffer TableSTORE[WLFQD]Src00004[WLFQD]DestMW08007---12/5[ MW08007 ].../0003wAlignment Data ResetMB216827[Btn_Out]PreAlign2 Unuse ModeMB000001StoppingMB002007P Work : Stick Buffer TableMB000800MCTAG_IdlingEXPRESSION// PreAlign X,Y,T Align Data\u0027ML08320\u0027 = 0  ML08320 = 0;  // X\u0027ML08322\u0027 = 0  ML08322 = 0;  // Y\u0027STR AutoMark Search Moving Volume X\u0027 = 0  ML08324 = 0;  // T24/10[ ML08322 ].../0028w[ ML08324 ].../0030wSTORE[WLFQD]SrcML07822---[WLFQD]DestML08322---STORE[WLFQD]SrcML07824---[WLFQD]DestML08324STR AutoMark Search Moving Vol-MB002007P Work : Stick Buffer TableDB000011---STORE[WLFQD]SrcML07820---[WLFQD]DestML08320---39/22[ ML08320 ].../0016wH50.79/0027H50.79/0033[ ML08322 ].../0018w[ ML08324 ].../0020wCarry Out JudgeMB1170043LCCT Recipe Type (Main : 0, Sub : 1)MB00000FDebug==[WLFQD]SrcAMW301203Transfer Pich Tracking Data_SCT St-[WLFQD]SrcB00000MB00000FDebug==[WLFQD]SrcAMW301203Transfer Pich Tracking Data_SCT St-[WLFQD]SrcB00001MB00000FDebug==[WLFQD]SrcAMW301203Transfer Pich Tracking Data_SCT St-[WLFQD]SrcB00002MB00000FDebug==[WLFQD]SrcAMW301203Transfer Pich Tracking Data_SCT St-[WLFQD]SrcB00003MB00000FDebugMB00000FDebugMB1170043LCCT Recipe Type (Main : 0, Sub : 1)MB00000FDebugDB000101RCCT Carry Out ConditionMB002007P Work : Stick Buffer TableDB000060LCCT CarryOut414/44[ DB000060 ].../0107P00001  H70.29 : Unit9 Auto (SBT)  H70.29 : Unit9 Auto (SBT)  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000060": "",
+    "DB000061": "",
+    "DB000062": "",
+    "DB000100": "",
+    "DB000101": "",
+    "ML08320": "",
+    "ML08322": "",
+    "ML08324": "STR AutoMark Search Moving Volume X",
+    "MW08007": "",
+    "MW08027": "",
+    "MW08028": "",
+    "MW08362": "SBT Carry Out Condition (0:Non 1:L 2:R)"
+  }
+}

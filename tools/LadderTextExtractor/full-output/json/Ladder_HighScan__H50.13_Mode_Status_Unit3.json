@@ -1,0 +1,45 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H50.13 Mode Status Unit3.pdf",
+  "ProgramId": "H50.13",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 1895,
+  "IsEmpty": false,
+  "Registers": [
+    "MB050690",
+    "MB050692",
+    "MB050694",
+    "MB050740",
+    "MB050742",
+    "MB050743",
+    "MB050748",
+    "MB050749",
+    "MB05074A",
+    "MB05074B"
+  ],
+  "Expressions": [
+    "Motor Status==[WLFQD]SrcA00000[WLFQD]SrcBOWB008BKPBY1~Motion command==[WLFQD]SrcA00000[WLFQD]SrcBOWB088BKPBY2~Motion commandMB050690Break Pusher Bar Y Not CmdH50.13:BKPB ModeStatus00/0[ MB050690 ].../0018H50.53/0100H50.53/0328==[WLFQD]SrcA00000[WLFQD]SrcBOWB108BKPBZ1~Motion command==[WLFQD]SrcA00000[WLFQD]SrcBOWB188BKPBZ2~Motion commandMB050692Break Pusher Bar Z Not Cmd13/9[ MB050692 ].../0019H50.53/0123H50.53/0157H50.53/0218H50.53/0267H50.53/0289H50.54/0086H50.54/0131H50.54/0161H50.54/0189H50.54/0216H50.54/0242H50.54/0278H50.54/0313MB050690Break Pusher Bar Y Not CmdMB050692Break Pusher Bar Z Not CmdMB050694Break Pusher Bar No Command26/18[ MB050694 ]H50.52/0110H50.52/0179H50.52/0218H50.52/0292H50.53/0214H50.53/0262H50.53/0285PositionMB051000Break Pusher Bar Y Waiting PositionMB051020Break Pusher Bar Z Standby PositionMB050740[BKPB] Standby Position39/21[ MB050740 ]L20.43/1219MB051003[BKPBY] Breaking PositionMB051023Break Pusher Bar Z Start PositionMB050742[BKPB] Break Start Position412/24[ MB050742 ]L20.43/1233MB051003[BKPBY] Breaking PositionMB051024Break Pusher Bar Z End PositionMB050743[BKPB] Break Execute Position515/27[ MB050743 ]L20.43/1240MB051008Break Pusher Bar Y Last Breaking P-MB051023Break Pusher Bar Z Start PositionMB050748[BKPB] Last Break Start Position618/30[ MB050748 ]L20.43/1261MB051008Break Pusher Bar Y Last Breaking P-MB051024Break Pusher Bar Z End PositionMB050749[BKPB] Last Break Execute Position721/33[ MB050749 ]L20.43/1268MB05100ABreak Pusher Bar Y Cleaning Start P-MB05102ABreak Pusher Bar Z Cleaning PositionMB05074A[BKPB] Cleaning Start Position824/36[ MB05074A ]H30.20/0350H30.50/0631L20.43/1289MB05100BBreak Pusher Bar Y Cleaning End P-MB05102ABreak Pusher Bar Z Cleaning PositionMB05074B[BKPB] Cleaning End Position927/39[ MB05074B ]L20.43/1296END1030/42P00001  H50.13 : Mode Status_Unit3 (BKPB)  H50.13 : Mode Status_Unit3 (BKPB)  P00001"
+  ],
+  "CrossReferences": [
+    "H30.20/0350H30",
+    "H50.52/0110H50",
+    "L20.43/1219MB051003",
+    "L20.43/1233MB051003",
+    "L20.43/1240MB051008Break",
+    "L20.43/1261MB051008Break",
+    "L20.43/1268MB05100ABreak",
+    "L20.43/1296END1030"
+  ],
+  "RegisterComments": {
+    "MB050690": "Break Pusher Bar Y Not Cmd",
+    "MB050692": "Break Pusher Bar Z Not Cmd",
+    "MB050694": "Break Pusher Bar No Command",
+    "MB050740": "[BKPB] Standby Position",
+    "MB050742": "[BKPB] Break Start Position",
+    "MB050743": "[BKPB] Break Execute Position",
+    "MB050748": "[BKPB] Last Break Start Position",
+    "MB050749": "[BKPB] Last Break Execute Position",
+    "MB05074A": "[BKPB] Cleaning Start Position",
+    "MB05074B": "[BKPB] Cleaning End Position"
+  }
+}

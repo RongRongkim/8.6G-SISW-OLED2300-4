@@ -1,0 +1,30 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H40.30 Standby On.pdf",
+  "ProgramId": "H40.30",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 2497,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000020",
+    "DB000030",
+    "DB000100",
+    "DB000101",
+    "MB000002",
+    "MB000003",
+    "MB000034",
+    "MB000036"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000020": "",
+    "DB000030": "",
+    "DB000100": "",
+    "DB000101": "",
+    "MB000002": "All Servo On",
+    "MB000003": "Servo On CMD.",
+    "MB000034": "Servo ON permission",
+    "MB000036": "All Axis Parameter Setting Comp."
+  }
+}

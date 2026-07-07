@@ -1,0 +1,45 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H30.23 Glass Tracking.pdf",
+  "ProgramId": "H30.23",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 2890,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000007",
+    "DB000008",
+    "DB00000F",
+    "DB000100",
+    "DB000108",
+    "DW00020",
+    "MB002480",
+    "MB002487",
+    "MB002488",
+    "MB002489",
+    "MB00248F",
+    "MB002491"
+  ],
+  "Expressions": [],
+  "CrossReferences": [
+    "H30.10/0226H30",
+    "H30.10/0250H30",
+    "H30.10/0332H30",
+    "H30.10/0478H30",
+    "H30.10/0502H30",
+    "H30.10/0613H30"
+  ],
+  "RegisterComments": {
+    "DB000007": "",
+    "DB000008": "",
+    "DB00000F": "",
+    "DB000100": "",
+    "DB000108": "",
+    "DW00020": "",
+    "MB002480": "Work Move : SCT Carry In \u2192 SCT Main Buffer Table",
+    "MB002487": "Work Move : SCT Stick Buffer Table \u2192 LCCT Stick Transfer2",
+    "MB002488": "Work Move : SCT Stick Buffer Table \u2192 RCCT Stick Transfer2",
+    "MB002489": "Work Move : LCCT Stick Transfer 2 \u2192 LCCT Left Scribe Fix Table",
+    "MB00248F": "Work Move : LCCT Right Scribe Chuck Y \u2192 LCCT Right Break Table",
+    "MB002491": "Work Move : RCCT Stick Transfer 2 \u2192 RCCT Left Scribe Fix Table"
+  }
+}

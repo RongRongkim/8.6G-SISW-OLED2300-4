@@ -1,0 +1,51 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H70.27  Unit7 Auto.pdf",
+  "ProgramId": "H70.27",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 3942,
+  "IsEmpty": false,
+  "Registers": [
+    "MB070130",
+    "MB070131",
+    "MB070138",
+    "MB070150",
+    "MB070151",
+    "MB073606",
+    "MB216825",
+    "ML07320",
+    "ML07322",
+    "ML07324",
+    "ML07330",
+    "ML07332",
+    "MW07007",
+    "MW07027",
+    "MW07028"
+  ],
+  "Expressions": [
+    "Auto Start TimeStart SequenceID MakeMB002002p Work : SCT Main TransferSTORE[WLFQD]Src00001[WLFQD]DestMW07007---H70.27:Unit7 Auto00/0[ MW07007 ].../0010w.../0022w.../0034wMB002002p Work : SCT Main TransferMB070130Main PreAlignment 1Cycle CompMB216825[Btn_Out]PreAlign Unuse ModeSTORE[WLFQD]Src00002[WLFQD]DestMW07007---12/5[ MW07007 ].../0003w.../0022w.../0034wMB216825[Btn_Out]PreAlign Unuse ModeMB002002p Work : SCT Main TransferMB070130Main PreAlignment 1Cycle CompMB070131Main MCR 1 Cycle Comp==[WLFQD]SrcAGL49030---[WLFQD]SrcB00000STORE[WLFQD]Src00003[WLFQD]DestMW07007---26/15[ MW07007 ].../0003w.../0010w.../0034wMB216825[Btn_Out]PreAlign Unuse Mode==[WLFQD]SrcAGL49030---[WLFQD]SrcB00001MB002002p Work : SCT Main TransferMB070130Main PreAlignment 1Cycle CompMB070131Main MCR 1 Cycle CompSTORE[WLFQD]Src00004[WLFQD]DestMW07007---312/27[ MW07007 ].../0003w.../0010w.../0022wInitailizeUnit PIO InterfaceMB000001StoppingEXPRESSION\u0027MW07027\u0027 = 0  MW07027 = 0;\u0027MW07028\u0027 = 0  MW07028 = 0;418/36PreAlignment Complete Bit MB000004Automatic DrivingMB00002EMain PreAlignment Comp RequestMB216826[Btn_Out]PreAlign CompleteDB000010---EXPRESSION// Alignment Complete Bit Set\u0027Main PreAlignment 1Cycle Comp\u0027 = 1  MB070130 = 1;\u0027Main PreAlignment 1Cycle Complete(Manual)\u0027 = 1  MB070150 = 1;\u0027MCR Key In Flag\u0027 = 0  MB070138 = 0;// Alignment Data Clear\u0027ML07320\u0027 = 0  ML07320 = 0;            //Main PreAlignment Data X Offset\u0027ML07322\u0027 = 0  ML07322 = 0;            //Main PreAlignment Data Y Offset\u0027ML07324\u0027 = 0  ML07324 = 0;            //Main PreAlignment Data T Offset520/43[ MB070150 ].../0076wH30.50/0924wL20.40/0197L20.47/1332[ MB070138 ].../0085w[ ML07320 ].../0096wH50.77/0015H50.77/0021H50.77/0055H50.77/0061H50.77/0190H50.77/0196H50.77/0229H50.77/0234[ ML07322 ].../0098wH50.77/0035H50.77/0041H50.77/0101H50.77/0116H50.77/0148H50.77/0170H50.77/0176H50.77/0210H50.77/0216[ ML07324 ].../0100wH50.77/0275H50.77/0281H50.77/0295H50.77/0301H50.77/0315H50.77/0321H50.77/0349H50.77/0354P00001  H70.27 : Unit7 Auto (MTR)  H70.27 : Unit7 Auto (MTR)  P00001",
+    "PreAlign \u0026 MCR Bit ResetMB000004Automatic DrivingMB002002p Work : SCT Main TransferMB1342102JOB Process Start CompleteMB00002EMain PreAlignment Comp RequestDB000012---MB002002p Work : SCT Main TransferEXPRESSION// Alignment Complete Bit Set\u0027Main PreAlignment 1Cycle Comp\u0027 = 0  MB070130 = 0; // Auto\u0027Main PreAlignment 1Cycle Complete(Manual)\u0027 = 0  MB070150 = 0;   // Manual// MCR Read Complete Bit Set\u0027Main MCR 1 Cycle Comp\u0027 = 0  MB070131 = 0;   // Auto\u0027MB070151\u0027 = 0  MB070151 = 0;   // Manual// MCR Dialog Key In Flag\u0027MCR Key In Flag\u0027 = 0  MB070138 = 0;   // Auto//Auto Mark Search Bit Reset\u0027MTR AutoMark Search Complete Flag\u0027 = 0  MB073606 = 0;625/64[ MB070150 ].../0053wH30.50/0924wL20.40/0197L20.47/1332[ MB070131 ].../0018.../0030H50.40/1102H80.11/0105H80.13/0081H80.15/0054H80.15/0113H80.15/0131H80.15/0134H80.15/0235H80.15/0248H80.15/0252H80.15/0263H80.15/0493H80.15/0507H80.15/0518H80.15/0545H80.15/0564H80.15/0583H80.15/0599H80.15/0622H99.02/0266H99.02/0313H99.02/0320H99.02/0353H99.02/0367L20.47/1339[ MB070151 ]L20.47/1340[ MB070138 ].../0056w[ MB073606 ]H30.50/0918wPreAlign \u0026 MCR Data ResetMB002002p Work : SCT Main TransferDB000013---MB216825[Btn_Out]PreAlign Unuse ModeMB000800MCTAG_IdlingEXPRESSION// MTR PreAlign X,Y,T Align Data\u0027ML07320\u0027 = 0  ML07320 = 0;  // X\u0027ML07322\u0027 = 0  ML07322 = 0;  // Y\u0027ML07324\u0027 = 0  ML07324 = 0;  // T732/90[ ML07322 ].../0060wH50.77/0035H50.77/0041H50.77/0101H50.77/0116H50.77/0148H50.77/0170H50.77/0176H50.77/0210H50.77/0216[ ML07324 ].../0062wH50.77/0275H50.77/0281H50.77/0295H50.77/0301H50.77/0315H50.77/0321H50.77/0349H50.77/0354MB000001StoppingDB000011---==[WLFQD]SrcAGL49030---[WLFQD]SrcB00001MB002002p Work : SCT Main TransferEXPRESSION// MTR MCR Retry Count\u0027ML07330\u0027 = 0  ML07330 = 0; // Stick Count\u0027ML07332\u0027 = 0  ML07332 = 0; // Cell Count837/105[ ML07332 ]H50.77/0391END942/115P00002  H70.27 : Unit7 Auto (MTR)  H70.27 : Unit7 Auto (MTR)  P00002"
+  ],
+  "CrossReferences": [
+    "H30.50/0918wPreAlign",
+    "H50.77/0391END942",
+    "L20.47/1340"
+  ],
+  "RegisterComments": {
+    "MB070130": "Main PreAlignment 1Cycle Comp",
+    "MB070131": "Main MCR 1 Cycle Comp",
+    "MB070138": "MCR Key In Flag",
+    "MB070150": "Main PreAlignment 1Cycle Complete(Manual)",
+    "MB070151": "",
+    "MB073606": "MTR AutoMark Search Complete Flag",
+    "MB216825": "[Btn_Out]PreAlign Unuse Mode",
+    "ML07320": "",
+    "ML07322": "",
+    "ML07324": "",
+    "ML07330": "",
+    "ML07332": "",
+    "MW07007": "",
+    "MW07027": "",
+    "MW07028": ""
+  }
+}

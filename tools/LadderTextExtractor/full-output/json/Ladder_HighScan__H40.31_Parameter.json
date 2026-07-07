@@ -1,0 +1,36 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H40.31 Parameter.pdf",
+  "ProgramId": "H40.31",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 2296,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000011",
+    "DB000012",
+    "DB000100",
+    "MB000038",
+    "MB03201E",
+    "MB032302",
+    "MB03231E",
+    "MB210148",
+    "MW03202",
+    "MW03232",
+    "MW20032"
+  ],
+  "Expressions": [],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DB000011": "",
+    "DB000012": "",
+    "DB000100": "",
+    "MB000038": "Running Parameter Update",
+    "MB03201E": "Interpolation Override",
+    "MB032302": "",
+    "MB03231E": "Interpolation Override",
+    "MB210148": "[MCTAG]Offset Set Executeing",
+    "MW03202": "Machine Override / MPM010 Work Register 3",
+    "MW03232": "Machine Override / MPM012 Work Register 3",
+    "MW20032": "[PCTAG]EQP Override(%)"
+  }
+}

@@ -1,0 +1,44 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H90.60 Dummy Carrier.pdf",
+  "ProgramId": "H90.60",
+  "ScanType": "HighScan",
+  "PageCount": 2,
+  "TextLength": 3158,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000012",
+    "DB000030",
+    "DB000031",
+    "DB000032",
+    "DB000050",
+    "MB030700",
+    "MB031141",
+    "MB090404",
+    "MB090405",
+    "MB090444",
+    "MB090445",
+    "ML16416"
+  ],
+  "Expressions": [
+    "Dummy CarrierDummu Carrier AlarmMB045133Break Pusher Bar Waste Execute. C-MB04513BLast Break Comp Standby Pos CompMB045136Break Pusher Bar Standby Pos CompMB000800MCTAG_IdlingDB000010Pls!=[WLFQD]SrcA00000[WLFQD]SrcBGL25100Dummy Carrier CountEXPRESSION\u0027Dummy Carrier Count\u0027 = \u0027Dummy Carrier Count\u0027 \u002B 1  ML16416 = ML16416 \u002B 1;H90.60:Dummy Carrier00/3\u003E=[WLFQD]SrcAML16416Dummy Carrier Count[WLFQD]SrcBGL25100Dummy Carrier Count!=[WLFQD]SrcA00000[WLFQD]SrcBGL25100Dummy Carrier CountMB030700Dummy Carrier Count Over Warning17/14[ MB030700 ]H20.30/0267H80.20/0288H80.21/0185H80.22/0185L90.40/0000Dummy Door StatusMB00000FDebugMB03086FSCT UNOP Door Release SW 4 (D-MB000001StoppingMB030867SCT OP Door Release SW 5 (Dum-TON[10ms][W]Set00300[W]CountDW00040---DB000012---DB000050Dummy Door Switch On210/23[ DB000050 ].../0037DB000032DUMMY DOOR RELEASE CYLIND-MB030854SCT OP Door 5 Signal (Dummy Do-DB000030\uBB38\uB2EB\uD798\uC870\uAC74  317/31[ DB000030 ].../0039DB000032DUMMY DOOR RELEASE CYLIND-MB000001StoppingDB000031\uBB38\uC5F4\uB9BC\uC870\uAC74  420/34[ DB000031 ].../0042DB000031\uBB38\uC5F4\uB9BC\uC870\uAC74  MB00000FDebugRDB000032DUMMY DOOR RELEASE CYLIND-DB000050Dummy Door Switch OnDB000014PlsDB000030\uBB38\uB2EB\uD798\uC870\uAC74  MB00000FDebugSDB000032DUMMY DOOR RELEASE CYLIND-523/37[ DB000032 ].../0031.../0034.../0044w.../0060.../0064.../0070.../0083[ DB000032 ].../0031.../0034.../0041w.../0060.../0064.../0070.../0083MB210151[MCTAG]Dummy Cart Count ResetMB000001StoppingMB031141SCT Dummy Door Release RequestMB046381SCT Cart Check SensorTON[10ms][W]Set00300[W]CountDW00041---DB000013PlsMB00000FDebugEXPRESSION\u0027Dummy Carrier Count\u0027 = 0  ML16416 = 0;631/45DB000032DUMMY DOOR RELEASE CYLIND-DB000023PlsMB00000FDebugSMB031141SCT Dummy Door Release Request739/60[ MB031141 ].../0046.../0069w.../0087H/0804wH/0807wH50.43/1291DB000032DUMMY DOOR RELEASE CYLIND-MB090104Sensor : SCT Dummy Shutter Fwd (L)MB090105Sensor : SCT Dummy Shutter Fwd (R)DB000024PlsMB00000FDebugRMB031141SCT Dummy Door Release Request843/64[ MB031141 ].../0046.../0063w.../0087H/0804wH/0807wH50.43/1291P00001  H90.60 : Dummy Carrier  H90.60 : Dummy Carrier  P00001"
+  ],
+  "CrossReferences": [
+    "H20.30/0267H80",
+    "H50.12/1203wH50",
+    "H50.12/1204wH50"
+  ],
+  "RegisterComments": {
+    "DB000012": "",
+    "DB000030": "",
+    "DB000031": "",
+    "DB000032": "",
+    "DB000050": "",
+    "MB030700": "Dummy Carrier Count Over Warning",
+    "MB031141": "SCT Dummy Door Release Request",
+    "MB090404": "Sol : SCT Dummy Shutter Fwd (L)",
+    "MB090405": "Sol : SCT Dummy Shutter Fwd (R)",
+    "MB090444": "Sol : SCT Dummy Shutter Bwd (L)",
+    "MB090445": "Sol : SCT Dummy Shutter Bwd (R)",
+    "ML16416": "Dummy Carrier Count"
+  }
+}

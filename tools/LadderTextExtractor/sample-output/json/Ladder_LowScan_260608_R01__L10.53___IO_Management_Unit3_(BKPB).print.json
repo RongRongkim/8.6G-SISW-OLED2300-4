@@ -1,0 +1,52 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L10.53 _ IO Management_Unit3 (BKPB).print.pdf",
+  "ProgramId": "L10.53",
+  "ScanType": "LowScan",
+  "PageCount": 1,
+  "TextLength": 2640,
+  "IsEmpty": false,
+  "Registers": [
+    "DW00000",
+    "DW00009",
+    "DW00010",
+    "DW00039",
+    "DW00040",
+    "DW00089",
+    "DW00090",
+    "DW00119",
+    "MB050800",
+    "MB050820",
+    "MB050840",
+    "MB050850",
+    "MB050860",
+    "MB050870",
+    "MB051920",
+    "MB051930",
+    "MB051940",
+    "MB051950"
+  ],
+  "Expressions": [
+    "***************************************************************************************************** DL Register Area - 120Word*                   * DW00000 - DW00009 (Pls Use) * DW00010 - DW00039 (BIT Use)* DW00040 - DW00089 (Word Use)* DW00090 - DW00119 (Timer)**************************************************************************************************** ##################################################################################################### Program Name : IO Management_Unit3# # Function :  # # Call Program : H10## Sub Program :## Func Program :#################################################################################################### Command  Bit OperationVaccumFOR[W]VarDW00040---[W]Init00000[W]Max00015[W]Step00001H10.53:IO Management_Unit300/0EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL211/4MB050840iUnit3 Vacuum 1 On (Sol) DB000000iPlsRMB050850iUnit3 Vacuum 1 Off (Sol) NL222/6[ MB050850 ].../0009iH50.43/0794L10.63/0158iL10.63/0199iL20.43/0005MB050850iUnit3 Vacuum 1 Off (Sol) DB000010iPlsRMB050840iUnit3 Vacuum 1 On (Sol) NL235/9[ MB050840 ].../0006iH50.43/0618L10.63/0156iL10.63/0201iL20.43/0001MB051920iUnit3 Vacuum 17 On (Sol)DB000020iPlsRMB051930iUnit3 Vacuum 17 Off (Sol)NL248/12[ MB051930 ].../0015iL20.43/0133MB051930iUnit3 Vacuum 17 Off (Sol)DB000030iPlsRMB051920iUnit3 Vacuum 17 On (Sol)NL2511/15[ MB051920 ].../0012iL20.43/0129END_FOR614/18BlowFOR[W]VarDW00040---[W]Init00000[W]Max00015[W]Step00001715/19EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL2816/23MB050860iBreak Chuck Upper Tip Blow OnDB000040iPlsRMB050870iBreak Chuck Upper Tip Blow OffNL2917/25[ MB050870 ].../0028iH50.43/1130L10.13/0451iL10.63/0244iL10.63/0285iL20.43/0261MB050870iBreak Chuck Upper Tip Blow OffDB000050iPlsRMB050860iBreak Chuck Upper Tip Blow OnNL21020/28[ MB050860 ].../0025iH50.43/0970L10.13/0390iL10.63/0242iL10.63/0287iL20.43/0257MB051940iUnit3 Blow 17 On (Sol)DB000060iPlsRMB051950iUnit3 Blow 17 Off (Sol)NL21123/31[ MB051950 ].../0034iL20.43/0389MB051950iUnit3 Blow 17 Off (Sol)DB000070iPlsRMB051940iUnit3 Blow 17 On (Sol)NL21226/34[ MB051940 ].../0031iL20.43/0385END_FOR1329/37CylinderFOR[W]VarDW00040---[W]Init00000[W]Max00031[W]Step000011430/38EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL21531/42MB050800iDummy Box1 CYL1,2 FWDB000080iPlsRMB050820iDummy Box1 CYL1,2 BWNL21632/44[ MB050820 ].../0047iH50.43/0330L10.63/0008iL10.63/0081iL20.43/0517MB050820iDummy Box1 CYL1,2 BWDB000090iPlsRMB050800iDummy Box1 CYL1,2 FWNL21735/47[ MB050800 ].../0044iH50.43/0042L10.63/0006iL10.63/0083iL20.43/0513END_FOR1838/50END1939/51P00001  L10.53 : IO Management_Unit3 (BKPB)  L10.53 : IO Management_Unit3 (BKPB)  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DW00000": "",
+    "DW00009": "",
+    "DW00010": "",
+    "DW00039": "",
+    "DW00040": "",
+    "DW00089": "",
+    "DW00090": "",
+    "DW00119": "",
+    "MB050800": "Dummy Box1 CYL1,2 FW",
+    "MB050820": "Dummy Box1 CYL1,2 BW",
+    "MB050840": "Unit3 Vacuum 1 On (Sol) ",
+    "MB050850": "Unit3 Vacuum 1 Off (Sol) ",
+    "MB050860": "Break Chuck Upper Tip Blow On",
+    "MB050870": "Break Chuck Upper Tip Blow Off",
+    "MB051920": "Unit3 Vacuum 17 On (Sol)",
+    "MB051930": "Unit3 Vacuum 17 Off (Sol)",
+    "MB051940": "Unit3 Blow 17 On (Sol)",
+    "MB051950": "Unit3 Blow 17 Off (Sol)"
+  }
+}

@@ -1,0 +1,58 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H60.34 CZ Toqure.pdf",
+  "ProgramId": "H60.34",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 2578,
+  "IsEmpty": false,
+  "Registers": [
+    "DB000010",
+    "DB000011",
+    "DL00040",
+    "DL00042",
+    "DL00044",
+    "DL00046",
+    "DW00011",
+    "DW00020",
+    "DW00025",
+    "DW00030",
+    "DW00035",
+    "MB15420C",
+    "ML23860",
+    "ML23862",
+    "MW15500",
+    "MW15505",
+    "MW15510",
+    "MW15515",
+    "MW15860",
+    "MW15862"
+  ],
+  "Expressions": [
+    "****************************************** Scribe Puressure Judgment*****************************************EXPRESSION\u0027DW00011\u0027 = 80  DW00011 = 80;\u0027DW00020\u0027 = \u0027MW15500\u0027 * \u0027DW00011\u0027 / 100  DW00020 = MW15500 * DW00011 / 100;\u0027DW00025\u0027 = \u0027MW15505\u0027 * \u0027DW00011\u0027 / 100  DW00025 = MW15505 * DW00011 / 100;\u0027DW00030\u0027 = \u0027MW15510\u0027 * \u0027DW00011\u0027 / 100  DW00030 = MW15510 * DW00011 / 100;\u0027DW00035\u0027 = \u0027MW15515\u0027 * \u0027DW00011\u0027 / 100  DW00035 = MW15515 * DW00011 / 100;H60.34:CZ Toqure Management00/0[ DW00020 ].../0025.../0030==[WLFQD]SrcA00001[WLFQD]SrcBML01142Upper Roller Use(0:Cutter 1:Roller)DB000050Upper Roller USE11/18==[WLFQD]SrcA00001[WLFQD]SrcBML01144Lower Roller Use(0:Cutter 1:Roller)DB000051LowerRoller USE23/21MB00000FDebug\u003E[WLFQD]SrcAILA142CZ~Feedback torque/thrust[WLFQD]SrcBDW00020---!=[WLFQD]SrcAILA142CZ~Feedback torque/thrust[WLFQD]SrcB00000!=[WLFQD]SrcADW00020---[WLFQD]SrcB00000DB000011Torque OK35/33[ DB000011 ].../0038DB000011Torque OKDB000010---410/38[ DB000010 ].../0041.../0043DB000010---TON[10ms][W]Set00100[W]CountDW00010---MB15420DCZ Pressure NGMB15420BCZ Pressure CheckDB000010---MB15420CCZ Pressure OK512/40[ MB15420C ]H30.50/0947****************************************** 0Level Search Judgment*****************************************Head 1EXPRESSION\u0027DL00040\u0027 = \u0027MW15860\u0027 \u002B \u0027ML23860\u0027  DL00040 = MW15860 \u002B ML23860; // UPCZ\u0027DL00042\u0027 = \u0027MW15862\u0027 \u002B \u0027ML23860\u0027  DL00042 = MW15862 \u002B ML23860; // UPRZ\u0027DL00044\u0027 = \u0027MW15510\u0027 * \u0027ML23862\u0027 / 100  DL00044 = MW15510 * ML23862 / 100; // LOCZ\u0027DL00046\u0027 = \u0027MW15515\u0027 * \u0027ML23862\u0027 / 100  DL00046 = MW15515 * ML23862 / 100; // LORZ618/47[ DL00042 ].../0071[ DL00044 ].../0089[ DL00046 ].../0098==[WLFQD]SrcA00000[WLFQD]SrcBOW8208MTRY2~Motion commandMB154219UPCX 0 Level Search [0 : Cutter 1 : -\u003E=[WLFQD]SrcAIL82C2MTRX~Feedback torque/thrust[WLFQD]SrcBDL00042---==[WLFQD]SrcA00007[WLFQD]SrcBOW8288MTRX~Motion command==[WLFQD]SrcA00000[WLFQD]SrcBOW8288MTRX~Motion commandMB154219UPCX 0 Level Search [0 : Cutter 1 : -\u003E=[WLFQD]SrcAIL8242MTRY2~Feedback torque/thrust[WLFQD]SrcBDL00040---==[WLFQD]SrcA00007[WLFQD]SrcBOW8208MTRY2~Motion commandMB154220Upper Z 0 Level Pressure On719/79==[WLFQD]SrcA00000[WLFQD]SrcBOW8408---MB154216LOCX 0 Level Search [0 : Cutter 1 : -\u003E=[WLFQD]SrcAIL84C2---[WLFQD]SrcBDL00046---==[WLFQD]SrcA00007[WLFQD]SrcBOW8488---==[WLFQD]SrcA00000[WLFQD]SrcBOW8488---MB154216LOCX 0 Level Search [0 : Cutter 1 : -\u003E=[WLFQD]SrcAIL8442---[WLFQD]SrcBDL00044---==[WLFQD]SrcA00007[WLFQD]SrcBOW8408---MB154228Lower Z 0 Level Pressure On828/106END937/115P00001  H60.34 : CZ Toqure Management  H60.34 : CZ Toqure Management  P00001"
+  ],
+  "CrossReferences": [
+    "H30.50/0947"
+  ],
+  "RegisterComments": {
+    "DB000010": "",
+    "DB000011": "",
+    "DL00040": "",
+    "DL00042": "",
+    "DL00044": "",
+    "DL00046": "",
+    "DW00011": "",
+    "DW00020": "",
+    "DW00025": "",
+    "DW00030": "",
+    "DW00035": "",
+    "MB15420C": "CZ Pressure OK",
+    "ML23860": "",
+    "ML23862": "",
+    "MW15500": "",
+    "MW15505": "",
+    "MW15510": "",
+    "MW15515": "",
+    "MW15860": "",
+    "MW15862": ""
+  }
+}

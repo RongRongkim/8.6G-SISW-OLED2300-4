@@ -1,0 +1,26 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H90.40 Scribe Retry.pdf",
+  "ProgramId": "H90.40",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 821,
+  "IsEmpty": false,
+  "Registers": [
+    "MB047350",
+    "MB21462E",
+    "ML04906",
+    "ML04910"
+  ],
+  "Expressions": [],
+  "CrossReferences": [
+    "H20.02/0027L40",
+    "H50.10/0560w",
+    "H50.10/0562wEND314"
+  ],
+  "RegisterComments": {
+    "MB047350": "Scribe Emergency Stop",
+    "MB21462E": "[MCTAG]Scirbe Stop Req.",
+    "ML04906": "",
+    "ML04910": ""
+  }
+}

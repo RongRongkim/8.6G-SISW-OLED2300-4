@@ -1,0 +1,52 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_LowScan_260608_R01\\L10.57 _ IO Management_Unit7 (MTR).print.pdf",
+  "ProgramId": "L10.57",
+  "ScanType": "LowScan",
+  "PageCount": 1,
+  "TextLength": 2600,
+  "IsEmpty": false,
+  "Registers": [
+    "DW00000",
+    "DW00009",
+    "DW00010",
+    "DW00039",
+    "DW00040",
+    "DW00089",
+    "DW00090",
+    "DW00119",
+    "MB070800",
+    "MB070820",
+    "MB070840",
+    "MB070850",
+    "MB070860",
+    "MB070870",
+    "MB071920",
+    "MB071930",
+    "MB071940",
+    "MB071950"
+  ],
+  "Expressions": [
+    "***************************************************************************************************** DL Register Area - 120Word*                   * DW00000 - DW00009 (Pls Use) * DW00010 - DW00039 (BIT Use)* DW00040 - DW00089 (Word Use)* DW00090 - DW00119 (Timer)**************************************************************************************************** ##################################################################################################### Program Name : IO Management_Unit7# # Function :  # # Call Program : H10## Sub Program :## Func Program :#################################################################################################### Command  Bit OperationVaccumFOR[W]VarDW00040---[W]Init00000[W]Max00015[W]Step00001H10.57:IO Management_Unit700/0EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL211/4MB070840iUnit7 Vacuum 1 On (Sol) MTR Area1 Vacu-DB000000iPlsRMB070850iReverse Top Vacuum Area 1 OffNL222/6[ MB070850 ].../0009iH30.50/0400wH50.17/0162wH50.47/0813L10.67/0158iL10.67/0199iL20.47/0261MB070850iReverse Top Vacuum Area 1 OffDB000010iPlsRMB070840iUnit7 Vacuum 1 On (Sol) MTR Area1 Vacu-NL235/9[ MB070840 ].../0006iH50.17/0148wH50.47/0637L10.67/0156iL10.67/0201iL20.47/0257MB071920i---DB000020iPlsRMB071930i---NL248/12[ MB071930 ].../0015iL20.47/0389MB071930i---DB000030iPlsRMB071920i---NL2511/15[ MB071920 ].../0012iL20.47/0385END_FOR614/18BlowFOR[W]VarDW00040---[W]Init00000[W]Max00015[W]Step00001715/19EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL2816/23MB070860i[Sol] MTR Vacuum Break  OnDB000040iPlsRMB070870i[Sol] MTR Vacuum Break OffNL2917/25[ MB070870 ].../0028iH50.17/0179wH50.47/1151L10.17/0433iL10.67/0244iL10.67/0285iL20.47/0517MB070870i[Sol] MTR Vacuum Break OffDB000050iPlsRMB070860i[Sol] MTR Vacuum Break  OnNL21020/28[ MB070860 ].../0025iH50.17/0175wH50.47/0990L10.17/0375iL10.67/0242iL10.67/0287iL20.47/0513MB071940i---DB000060iPlsRMB071950i---NL21123/31[ MB071950 ].../0034iL20.47/0645MB071950i---DB000070iPlsRMB071940i---NL21226/34[ MB071940 ].../0031iL20.47/0641END_FOR1329/37CylinderFOR[W]VarDW00040---[W]Init00000[W]Max00031[W]Step000011430/38EXPRESSION\u0027I\u0027 = \u0027DW00040\u0027  I = DW00040;NL21531/42MB070800iUnit7 Cylinder 1 Forward (Sol)DB000080iPlsRMB070820iUnit7 Cylinder 1 Backward (Sol)NL21632/44[ MB070820 ].../0047iH50.47/0349L10.67/0008iL10.67/0081iL20.47/0005MB070820iUnit7 Cylinder 1 Backward (Sol)DB000090iPlsRMB070800iUnit7 Cylinder 1 Forward (Sol)NL21735/47[ MB070800 ].../0044iH50.47/0061L10.67/0006iL10.67/0083iL20.47/0001END_FOR1838/50END1939/51P00001  L10.57 : IO Management_Unit7 (MTR)  L10.57 : IO Management_Unit7 (MTR)  P00001"
+  ],
+  "CrossReferences": [],
+  "RegisterComments": {
+    "DW00000": "",
+    "DW00009": "",
+    "DW00010": "",
+    "DW00039": "",
+    "DW00040": "",
+    "DW00089": "",
+    "DW00090": "",
+    "DW00119": "",
+    "MB070800": "Unit7 Cylinder 1 Forward (Sol)",
+    "MB070820": "Unit7 Cylinder 1 Backward (Sol)",
+    "MB070840": "Unit7 Vacuum 1 On (Sol) MTR Area1 Vacuum On",
+    "MB070850": "Reverse Top Vacuum Area 1 Off",
+    "MB070860": "[Sol] MTR Vacuum Break  On",
+    "MB070870": "[Sol] MTR Vacuum Break Off",
+    "MB071920": "",
+    "MB071930": "",
+    "MB071940": "",
+    "MB071950": ""
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "SourcePath": "D:\\000.Remodel\\002.SDC\\009.\uC678\uC8FC\uC0AC\\8.6G SISW-OLED2300-4\\13.Source\\02.MP\\PDF\\Ladder_HighScan\\H70.24  Unit4 Auto.pdf",
+  "ProgramId": "H70.24",
+  "ScanType": "HighScan",
+  "PageCount": 1,
+  "TextLength": 181,
+  "IsEmpty": false,
+  "Registers": [
+    "MB05500D"
+  ],
+  "Expressions": [],
+  "CrossReferences": [
+    "H50.10/0068END12"
+  ],
+  "RegisterComments": {
+    "MB05500D": "Automatic Driving (BKT)"
+  }
+}
