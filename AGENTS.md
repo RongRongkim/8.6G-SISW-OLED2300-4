@@ -1,0 +1,19 @@
+# AGENTS.md
+
+## Cursor Cloud specific instructions
+
+This repository is **documentation/artifacts only** — it is **not a runnable software codebase**. There is nothing to build, no application server, no tests, and no lint step.
+
+### What this repo contains
+Reference material for a Yaskawa **MP3000** machine controller + **Sigma-7** servo project (Samsung Display "SDC 8.6G" OLED scribe/cut machine, model `SISW-OLED2300-4`):
+
+- `Fuction/`, `Ladder_HightScan/`, `Ladder_LowScan_260608_R01/`, `Motion_260608_R01/` — PDF printouts of ladder logic, motion programs, and function blocks (~494 PDFs total).
+- `Manual/` — Yaskawa vendor manuals (PDF, mostly Korean).
+- `GlobalValue.txt` — global register/variable map. **Encoding is UTF-16 (with BOM), tab-separated**, columns: `Register, Comment, Variable, Struct, Spare, ExtComment1..3` (~42k rows). Read it with `open(path, encoding='utf-16')`, not UTF-8.
+- `*.xlsx` at the root — register maps, I/O classification, and axis list spreadsheets.
+
+### Environment / dev workflow notes
+- **No package manager, lockfile, Dockerfile, CI, or build script exists.** The update script is intentionally a no-op.
+- The actual PLC/motion source is authored in the Windows-only **MPE720 Ver.7** toolchain and executed on Yaskawa MP3000 hardware + MECHATROLINK-III servo network. Neither can run in this Linux VM; only the exported PDFs/spreadsheets/register map are present here.
+- To programmatically work with the register map, use Python (pre-installed). No third-party packages are required to read `GlobalValue.txt`.
+- For PDFs/XLSX there are no pre-installed converters (`pdftotext`, `libreoffice`, `ssconvert` are absent). Install a Python library (e.g. `openpyxl` for `.xlsx`) on demand if needed; do not add it to the update script.
